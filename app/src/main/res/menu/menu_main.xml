@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity">
+
+    <!-- First two items are also buttons, but for convenience... -->
+    <item
+        android:id="@+id/action_discard"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/discard_short"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/action_deal"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="@string/deal_short"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/action_undo_last_move"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="@string/undo"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/action_start_new_game"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="@string/new_game"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_toggle_animations"
+        android:checkable="true"
+        android:title="@string/title_show_animations"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_toggle_auto_save"
+        android:checkable="true"
+        android:title="@string/title_use_auto_save"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_turn_show_error_messages"
+        android:checkable="true"
+        android:title="@string/title_show_turn_specific_error_messages"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/about"
+        app:showAsAction="never" />
+</menu>

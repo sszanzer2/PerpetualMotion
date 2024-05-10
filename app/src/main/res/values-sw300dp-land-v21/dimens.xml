@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_text_smaller_size">10sp</dimen>
+    <dimen name="card_text_standard_size">14sp</dimen>
+    <dimen name="card_text_larger_size">18sp</dimen>
+    <string name="dp_level">sw300-land-v21</string>
+</resources>

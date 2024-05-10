@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_half_margin">3dp</dimen>
+    <dimen name="activity_horizontal_margin">6dp</dimen>
+    <dimen name="activity_horizontal_margin_double">12dp</dimen>
+
+    <dimen name="card_text_smaller_size">10sp</dimen>
+    <dimen name="card_text_standard_size">10sp</dimen>
+    <dimen name="card_text_larger_size">12sp</dimen>
+    <string name="dp_level">sw300-land</string>
+</resources>
